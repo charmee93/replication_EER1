@@ -1,2 +1,69 @@
-# Replication Code
-for _The Unintended Cost of Distance Learning: An Analysis of Child Maltreatment_
+# Replication Files for “The Unintended Cost of Distance Learning: An Analysis of Child Maltreatment”
+
+This repository contains the replication code for:
+
+**Kim, Sungmee. “The Unintended Cost of Distance Learning: An Analysis of Child Maltreatment.”**
+
+The files in this repository reproduce the main empirical analyses, tables, and figures reported in the paper.
+
+## The Unintended Cost of Distance Learning: An Analysis of Child Maltreatment
+
+This paper provides the first causal evidence on how the pandemic-induced remote learning disrupted schools' capacity to detect child maltreatment. Leveraging county-level variation in remote instruction during the 2020-21 school year, I find that counties with higher exposure to remote instruction experienced a 7.2% greater decline in child maltreatment reports involving school-aged children, but a 13.4% increase in maltreatment-related child fatalities within this group. The decrease in reports by education personnel primarily drove the overall decline. Effects on maltreatment-related fatalities persisted even after schools resumed in-person instruction. These results highlight an unintended cost of distance learning: remote instruction impaired the detection of child maltreatment, leading to fewer reports but more severe cases. Prompt policy interventions could safeguard children who remain undetected.
+
+[This]() is the latest version of the working paper.
+
+## Data Availability
+
+The analysis uses restricted-use data from two sources:
+
+1. **National Child Abuse and Neglect Data System (NCANDS) Child File**
+
+   The NCANDS Child File is provided by the National Data Archive on Child Abuse and Neglect (NDACAN). Because these data are restricted-use, they cannot be redistributed through this repository.
+
+   Researchers interested in obtaining access may apply for the restricted-use NCANDS data through [NDACAN](https://www.ndacan.acf.hhs.gov/datasets/datasets-list-ncands-child-file.cfm):
+
+2. **National Vital Statistics System (NVSS) Restricted-Use Mortality Data**
+
+   The restricted-use mortality data are provided by the National Center for Health Statistics (NCHS). These data cannot be publicly redistributed through this repository.
+
+   Researchers interested in obtaining access must independently apply for access through the [relevant NCHS restricted-data procedures](https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm).
+
+Because both datasets are restricted-use, this repository contains replication code but does not contain the underlying confidential data.
+
+## Repository Structure
+
+* `code/` contains all programs used for data preparation and empirical analysis.
+* `output/` does not contain pre-generated results. After the replication code is executed, the resulting tables and figures will be saved in this folder.
+* `documentation/` contains additional information about data access and file construction.
+
+## Replication Procedure
+
+After obtaining access to the required NCANDS and NVSS data:
+
+1. Place the raw data files in the appropriate local directories.
+
+2. Update the directory paths specified at the beginning of the master file.
+
+3. Run the master replication file:
+
+   `00_master.do`
+
+4. The master file sequentially executes the data-cleaning, data-construction, analysis, and output programs.
+
+5. Replicated tables and figures will be saved in the designated output directories.
+
+## Software
+
+The analyses were conducted using Stata. The replication files should be run using a compatible version of Stata.
+
+Any user-written Stata packages required for replication are identified in the relevant code files.
+
+## Replication Scope
+
+The replication files reproduce the main data construction procedures, regression analyses, robustness analyses, tables, and figures reported in the paper.
+
+Because the underlying NCANDS and NVSS files are restricted-use data, successful replication requires researchers to independently obtain authorization to access the relevant datasets and to construct the required local data environment.
+
+## Contact
+
+If you have any questions regarding the replication materials, please feel free to contact me at [sungmeeus@gmail.com](mailto:sungmeeus@gmail.com).
