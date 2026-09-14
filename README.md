@@ -34,7 +34,6 @@ Because both datasets are restricted-use, this repository contains replication c
 
 * `code/` contains all programs used for data preparation and empirical analysis.
 * `output/` does not contain pre-generated results. After the replication code is executed, the resulting tables and figures will be saved in this folder.
-* `documentation/` contains additional information about data access and file construction.
 
 ## Replication Procedure
 
