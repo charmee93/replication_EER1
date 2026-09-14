@@ -10,7 +10,7 @@ The files in this repository reproduce the main empirical analyses, tables, and 
 
 This paper provides the first causal evidence on how the pandemic-induced remote learning disrupted schools' capacity to detect child maltreatment. Leveraging county-level variation in remote instruction during the 2020-21 school year, I find that counties with higher exposure to remote instruction experienced a 7.2% greater decline in child maltreatment reports involving school-aged children, but a 13.4% increase in maltreatment-related child fatalities within this group. The decrease in reports by education personnel primarily drove the overall decline. Effects on maltreatment-related fatalities persisted even after schools resumed in-person instruction. These results highlight an unintended cost of distance learning: remote instruction impaired the detection of child maltreatment, leading to fewer reports but more severe cases. Prompt policy interventions could safeguard children who remain undetected.
 
-[This]() is the latest version of the working paper.
+[This](https://charmee93.github.io/replication_EER1/EER1_SK.pdf) is the latest version of the working paper.
 
 ## Data Availability
 
